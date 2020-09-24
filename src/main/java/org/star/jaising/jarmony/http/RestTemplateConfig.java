@@ -42,7 +42,7 @@ import java.util.Objects;
 public class RestTemplateConfig {
 
     /**
-     * 配置RestTemplate，区分被海星脚手架@Primary注解掉的RestTemplate
+     * 配置RestTemplate
      */
     @Bean("exRestTemplate")
     public RestTemplate restTemplate(){
